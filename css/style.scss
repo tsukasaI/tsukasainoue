@@ -1,0 +1,73 @@
+html body {
+    font-family: 'PT Serif', serif;
+    margin: 0px;
+    text-align: center;
+
+    header {
+        .nav-list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+            .nav-list-item {
+                margin: 0px 20px;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+    .i-links {
+        position: relative;
+        margin: 10px;
+
+        a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    main {
+        .about {
+            .about_img {
+                width: 100%;
+            }
+
+            span {
+                color: red;
+                font-weight: bold;
+            }
+        }
+
+        .work_container {
+            position: relative;
+            a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .about, .service {
+            background-color: #f0f0f0;
+        }
+
+    }
+
+    footer {
+        background-color: #000000;
+        color: #ffffff;
+        .copyright {
+            margin-top: 20px;
+            padding: 20px 0px;
+            font-size: .8rem;
+        }
+    }
+}

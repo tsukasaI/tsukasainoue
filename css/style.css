@@ -4,6 +4,14 @@ html body {
   text-align: center;
 }
 
+html body header .top {
+  background: url(../img/header_bgimg.jpeg) no-repeat;
+  position: relative;
+  background-size: cover;
+  padding: 150px;
+  color: #ffffff;
+}
+
 html body header .nav-list {
   list-style: none;
   display: -webkit-box;
@@ -25,6 +33,8 @@ html body header .nav-list .nav-list-item a {
 html body .i-links {
   position: relative;
   margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 html body .i-links a {
@@ -33,6 +43,21 @@ html body .i-links a {
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+html body .hover {
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+html body main .message_img {
+  width: 80%;
+}
+
+html body main .about about_wrapper {
+  display: inline;
 }
 
 html body main .about .about_img {
@@ -56,7 +81,12 @@ html body main .work_container a {
   height: 100%;
 }
 
-html body main .about, html body main .service {
+html body main .service p {
+  margin-top: 20px;
+}
+
+html body main .about,
+html body main .service {
   background-color: #f0f0f0;
 }
 

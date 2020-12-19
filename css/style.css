@@ -85,23 +85,30 @@ html body main .work_container a {
   height: 100%;
 }
 
+html body main .work_container_hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-box-shadow: 0px 0px 3px #000000;
+          box-shadow: 0px 0px 3px #000000;
+}
+
 html body main .service p {
   margin-top: 20px;
 }
 
 html body main .about,
-html body main .service {
+html body main .service, html body main .contact {
   background-color: #f0f0f0;
 }
 
 html body footer {
   background-color: #000000;
   color: #ffffff;
+  margin: 0px;
 }
 
 html body footer .copyright {
-  margin-top: 20px;
-  padding: 20px 0px;
+  padding: 25px 0px;
   font-size: .8rem;
 }
 /*# sourceMappingURL=style.css.map */

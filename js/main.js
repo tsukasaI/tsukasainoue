@@ -11,6 +11,17 @@ $(function(){
     });
   });
 
+
+  // nav hover
+  $(function() {
+    $('.nav-list-item').hover(function() {
+      $(this).addClass('nav-hover');
+    }, function() {
+      $(this).removeClass('nav-hover');
+    })
+  })
+
+//  .i-links hover
   $(function() {
     // when hoverd
     $('.i-links').hover(function() {

@@ -30,6 +30,10 @@ html body header .nav-list .nav-list-item a {
   text-decoration: none;
 }
 
+html body header .nav-list .nav-hover {
+  text-decoration: underline;
+}
+
 html body .i-links {
   position: relative;
   margin: 10px;
